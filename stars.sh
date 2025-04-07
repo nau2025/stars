@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # StarHunt Terminal Game Installer — Randomized Sectors Version
+# Єспешіалі фор ІТ-Дізайнерс 2025.
 
 BASE_DIR="starhunt"
 
@@ -26,8 +27,9 @@ cat << EOF > "$BASE_DIR/README.txt"
 
 Ви — дослідник міжгалактичного флоту. Система навігації пошкоджена, і ваша зоряна карта втрачена. 
 Ваше завдання — знайти 20 найяскравіших зірок, захованих у файловій системі. 
+Крейсери можуть повернутись, якщо хоча б 15 зірок буде знайдено....
 
-Кожна зірка має індекс яскравості. Зібрані дані записуйте у файл: results/my_star_road.txt
+Кожна зірка має індекс яскравості. Зібрані дані послідовно записуйте у файл: results/my_star_road.txt
 
 Успіхів, досліднику!
 EOF
@@ -92,4 +94,4 @@ done
 touch "$BASE_DIR/results/my_star_road.txt"
 
 echo "StarHunt розгорнуто у: $BASE_DIR"
-echo "Запусти гру з: cd $BASE_DIR && cat README.txt"
+echo "Розпочати пошук з: cd $BASE_DIR && cat README.txt"
